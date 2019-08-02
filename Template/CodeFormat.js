@@ -1,3 +1,4 @@
+﻿
 function imprimirElemento(elemento){
 	var ventana = window.open('', 'PRINT', 'height=400,width=600');
 	ventana.document.write('<html><head><title>' + document.title + '</title>');
@@ -16,3 +17,7 @@ function imprimirElemento(elemento){
   {
 	  console.log('Hola Mundo...');
   }
+
+
+
+
