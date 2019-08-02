@@ -10,3 +10,9 @@ function imprimirElemento(elemento){
 	ventana.close();
 	return true;
   }
+
+
+  function HolaMundo()
+  {
+	  console.log('Hola Mundo...');
+  }
