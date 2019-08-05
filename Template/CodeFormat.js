@@ -1,5 +1,6 @@
 ﻿
-function imprimirElemento(elemento){
+function ImprimirElemento(elemento){
+	console.log('print element');
 	var ventana = window.open('', 'PRINT', 'height=400,width=600');
 	ventana.document.write('<html><head><title>' + document.title + '</title>');
 	ventana.document.write('</head><body >');

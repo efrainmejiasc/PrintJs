@@ -7,6 +7,21 @@
 
 <body>
      <script src="./Template/CodeFormat.js" type ="text/javascript"> </script>
-     <input  type="button" id="jsBasico" value="Imprimir JS Basico" onclick="HolaMundo();"/>
+     <div id="formato" name="formato">
+     <h4>Imprimir en JS</h4>
+     <br>
+     <label> Nro de Documento</label>
+      <input type="text" readonly value="00045298065"/><br>
+      <label>Razon Social &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+       <input type="text" readonly value="Innova Tech"/>
+     </div><br><br>
+     <div id='btnImprimir'><input  type="button" id="jsBasico" value="Imprimir JS Basico" onclick="Imprimir();"/></div>
+     <script>
+     function Imprimir(){
+          console.log('imprimiendo');
+          var elemento = document.getElementById('formato');
+          ImprimirElemento(elemento);
+     }
+     </script>
 </body>
 </html>
